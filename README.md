@@ -21,7 +21,7 @@ Code Examples ::
     $api_obj = new SMS_Easy(230431, "39ewcac5sssd248f9ijs81cf5231a");
 
     //How send an SMS
-    $result = $api_obj->send_sms("18096943331", "Hello I am doing a test!");
+    $result = $api_obj->send_sms("13206943331", "Hello I am doing a test!");
     echo "SEND SMS RESPONSE: " . print_r($result, true)  . "\n";
 
     //How get the account balance
